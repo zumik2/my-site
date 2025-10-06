@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моя ферма равликів</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Моя Равликова Ферма</h1>
+      <nav class="nav">
+        <a href="#about">Про нас</a>
+        <a href="#advantages">Переваги</a>
+        <a href="#plans">Плани</a>
+        <a href="#contact">Контакти</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="container">
+      <h2>Запусти равликову ферму з нами</h2>
+      <p>Професійно, з гарантованим збутом</p>
+      <button onclick="scrollToSection('contact')">Отримати консультацію</button>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2>Про нас</h2>
+      <p>Ми вирощуємо равликів з досвідом більше 6 років...</p>
+    </div>
+  </section>
+
+  <section class="advantages" id="advantages">
+    <div class="container">
+      <h2>Переваги запуску</h2>
+      <ul>
+        <li>Високий прибуток</li>
+        <li>Стійкий збут</li>
+        <li>Низькі витрати</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="plans" id="plans">
+    <div class="container">
+      <h2>Плани запуску</h2>
+      <div class="plan-cards">
+        <div class="plan">
+          <h3>Easy</h3>
+          <p>20000 грн</p>
+        </div>
+        <div class="plan">
+          <h3>Pro</h3>
+          <p>40000 грн</p>
+        </div>
+        <div class="plan">
+          <h3>Maxi</h3>
+          <p>80000 грн</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Контакти / Заявка</h2>
+      <form>
+        <input type="text" name="name" placeholder="Ім’я" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Ваш запит" required></textarea>
+        <button type="submit">Надіслати</button>
+      </form>
+      <p>Телефон: +38 0XX XXX XXXX</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Моє Назва. Всі права захищено.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
